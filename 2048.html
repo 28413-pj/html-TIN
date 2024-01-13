@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="pl"> 
+
+<head>
+    <link rel="stylesheet" href="./style.css" /> 
+    </head>
+    
+    <body>
+      <div class="game">
+        <div class="head">
+          <div class="a">2048 <button class="info" onClick='info()'>i</button> <button id="repeat" class="info repeat" onClick='reset()'>↻</button></div>
+          <div class="score">Wynik<br/><span id="value"></span></div>
+        </div>
+        <div class="description" id="description">
+        Zasady gry:<br/><br/>
+        Używaj strzałek by ruszać klockami<br/>
+        Dwa klocki o tej samej wartości łączą się dając ich sume.<br/><br/>
+        Celem gry jest łączenie ich aż do 2048!<br/><br/>
+        Nie możesz spowodować by wszystkie miejsca były zajętę!<br><br/>
+      </div>
+        <div class="field">
+          
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+        </div>
+        
+      </div>
+      <div class='' id='status'>
+      </div>
+      <script src="app.js"></script> 
+    </body>
