@@ -5,8 +5,6 @@ body {
     margin: 0;
   }
   
-  
-  /* head */
   .head {
     height: 120px;
     width: 510px;
@@ -100,7 +98,6 @@ body {
   
   
   
-  /* plansza */
   .field, .grid {
     position: absolute;
     width: 510px;
